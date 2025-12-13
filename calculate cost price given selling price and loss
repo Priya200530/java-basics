@@ -1,0 +1,12 @@
+//  calculate cost price given selling price and loss
+import java.util.Scanner;
+public class Main{
+    public static void main(String[]args){
+    Scanner v=new Scanner(System.in);
+    int sellp=v.nextInt();
+    int loss=v.nextInt();
+    int cp=sellp-loss;
+    System.out.print("cost price:"+cp);
+}
+}
+    
